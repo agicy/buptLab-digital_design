@@ -1,0 +1,21 @@
+name: Commit Check
+
+on:
+  push:
+  pull_request:
+    branches: 'main'
+
+jobs:
+  commit-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: commit-check/commit-check-action@v1
+        with:
+          message: true
+          branch: true
+          author-name: false
+          author-email: false
+          commit-signoff: false
+          dry-run: true
+          job-summary: true

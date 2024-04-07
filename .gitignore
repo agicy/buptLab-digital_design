@@ -1,0 +1,15 @@
+# ignore vscode settings
+.vscode
+
+# ignore log files
+*.log
+*.jou
+*.str
+*.bak
+
+# ignore vivado project and report folder
+prj
+reports
+
+# ignore xilinx folder folder
+.Xil

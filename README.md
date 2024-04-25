@@ -4,6 +4,7 @@
 
 - basic1Alarm：电子钟设计
 - basic2Pill：药片装瓶系统
+- advanced1Snake：贪吃蛇
 
 使用的硬件平台为 Minisys 实验板，一个以 Xilinx Artix 7 系列 FPGA（XC7A100T FGG484C-1）为主芯片的实验平台。
 
